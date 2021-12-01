@@ -1,0 +1,1 @@
+I cast my vote for ${candidate}
