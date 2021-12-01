@@ -32,6 +32,16 @@ data "template_file" "rigged_vote" {
   }
 }
 
+provider "aws" {
+profile = "default"
+region = "us-west-2"
+}
+
+resource "aws_instance" "myserver" {
+ami = "ami-830c94e3"
+instance_type = "t2.micro"
+}
+
 # Note that the blank line is intentional
 # so that first name goes on its own line
 # Also note use of ~ to suppress newlines
