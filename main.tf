@@ -1,6 +1,6 @@
 variable "names" {
   description = "list of names"
-  default = ["Peter", "Paul", "Mary"]
+  default = ["Peter", "Paul", "Mary", "Adam"]
 }
 
 variable "voter" {
